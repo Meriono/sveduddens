@@ -7,14 +7,16 @@
     >
       <h1 class="brown--text text--lighten-2">Sveduddens kennel</h1>
       <v-container>
-        <v-avatar
+
+
+        <v-tabs grow color="#b58950" height="64px">
+          <v-avatar
             color="#dcc7ac"
             size="32"
+            class="mr-2 mt-4"
         >
           <v-icon>mdi-dog</v-icon>
         </v-avatar>
-
-        <v-tabs fixed-tabs color="#b58950" class="ml-10">
           <v-tab
               v-for="link in links"
               :key="link"
