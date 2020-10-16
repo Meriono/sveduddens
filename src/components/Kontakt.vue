@@ -50,39 +50,48 @@
             rounded="lg"
         >
           <v-card-text>
-            <h1 class="my-2">Kontakt</h1>
-            <v-col cols="4">
-              <v-card>
-                <p>
-                  <v-icon>mdi-home</v-icon>
-                  <br>
-                  Sveduddens Kennel<br>
-                  Annika Norrthon<br>
-                  Sveden, Havsjövägen 31<br>
-                  761 12 BERGSHAMRA<br>
-                </p>
-              </v-card>
-              <v-card>
-                <p>
-                  <v-icon>mdi-phone</v-icon>
-                  <br>
-                  0730-650921<br>
-                  +46 730-650921<br>
-                </p>
-              </v-card>
-              <v-card>
-                <p>
-                  <v-icon>mdi-email</v-icon>
-                  <br>
-                  sveduddens@telia.com
-                </p>
-              </v-card>
-            </v-col>
-            <v-img max-height="168px"
-                   max-width="181px"
-                   src="http://www.sveduddens.se/Kontakt/maila.jpg"
-            >
-            </v-img>
+            <v-row>
+              <v-col cols="4" align="center">
+                <v-card flat>
+                  <p>
+                    <v-icon large>mdi-home</v-icon>
+                    <br>
+                    Sveduddens Kennel<br>
+                    Annika Norrthon<br>
+                    Sveden, Havsjövägen 31<br>
+                    761 12 BERGSHAMRA<br>
+                  </p>
+                </v-card>
+              </v-col>
+              <v-col cols="4" align="center">
+                <v-card flat>
+                  <p>
+                    <v-icon large>mdi-phone</v-icon>
+                    <br>
+                    0730-650921<br>
+                    +46 730-650921<br>
+                  </p>
+                </v-card>
+              </v-col>
+              <v-col cols="4" align="center">
+                <v-card flat>
+                  <p>
+                    <v-icon large>mdi-email</v-icon>
+                    <br>
+                    sveduddens@telia.com
+                  </p>
+                </v-card>
+              </v-col>
+            </v-row>
+            <v-row>
+              <v-col cols="12" align="center">
+                <v-img max-height="168px"
+                       max-width="181px"
+                       src="http://www.sveduddens.se/Kontakt/maila.jpg"
+                >
+                </v-img>
+              </v-col>
+            </v-row>
           </v-card-text>
         </v-sheet>
       </v-col>

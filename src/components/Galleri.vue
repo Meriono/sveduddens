@@ -46,16 +46,225 @@
 
       <v-col>
         <v-sheet
-            min-height="70vh"
+            max-height="70vh"
             rounded="lg"
+            class="overflow-y-auto"
         >
-          <v-card-text>
-            <h1 class="my-2">Välkommen!</h1>
-            <p>FCI och SKK-registrerad uppfödare av Jack Russell Terrier sen 2001. Sveduddens Kennel finns 6 mil
-              nordost om Stockholm.<br><br>
+            <v-container
+                class="bigbox"
+                fluid
+                style="min-height: 434px"
+            >
+              <v-fade-transition mode="out-in">
+                <v-row>
+                  <v-col cols="4">
+                    <v-card>
+                      <v-img
+                          src="https://picsum.photos/350/165?random"
+                          height="125"
+                          class="grey darken-4"
+                      ></v-img>
+                      <v-card-title class="title">
+                        height
+                      </v-card-title>
+                    </v-card>
+                  </v-col>
 
-              Över 50 HP belönade uppfödargrupper!</p>
-          </v-card-text>
+                  <v-col cols="4">
+                    <v-card>
+                      <v-img
+                          src="https://picsum.photos/350/165?random"
+                          height="125"
+                          contain
+                          class="grey darken-4"
+                      ></v-img>
+                      <v-card-title class="title">
+                        height with contain
+                      </v-card-title>
+                    </v-card>
+                  </v-col>
+
+                  <v-col cols="4">
+                    <v-card>
+                      <v-img
+                          src="https://picsum.photos/350/165?random"
+                          max-height="125"
+                          class="grey darken-4"
+                      ></v-img>
+                      <v-card-title class="title">
+                        max-height
+                      </v-card-title>
+                    </v-card>
+                  </v-col>
+
+                  <v-col cols="4">
+                    <v-card>
+                      <v-img
+                          src="https://picsum.photos/350/165?random"
+                          max-height="125"
+                          contain
+                          class="grey darken-4"
+                      ></v-img>
+                      <v-card-title class="title">
+                        max-height with contain
+                      </v-card-title>
+                    </v-card>
+                  </v-col>
+                  <v-col cols="4">
+                    <v-card>
+                      <v-img
+                          src="https://picsum.photos/350/165?random"
+                          max-height="125"
+                          class="grey darken-4"
+                      ></v-img>
+                      <v-card-title class="title">
+                        max-height
+                      </v-card-title>
+                    </v-card>
+                  </v-col>
+
+                  <v-col cols="4">
+                    <v-card>
+                      <v-img
+                          src="https://picsum.photos/350/165?random"
+                          max-height="125"
+                          contain
+                          class="grey darken-4"
+                      ></v-img>
+                      <v-card-title class="title">
+                        max-height with contain
+                      </v-card-title>
+                    </v-card>
+                  </v-col><v-col cols="4">
+                  <v-card>
+                    <v-img
+                        src="https://picsum.photos/350/165?random"
+                        max-height="125"
+                        class="grey darken-4"
+                    ></v-img>
+                    <v-card-title class="title">
+                      max-height
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+
+                  <v-col cols="4">
+                    <v-card>
+                      <v-img
+                          src="https://picsum.photos/350/165?random"
+                          max-height="125"
+                          contain
+                          class="grey darken-4"
+                      ></v-img>
+                      <v-card-title class="title">
+                        max-height with contain
+                      </v-card-title>
+                    </v-card>
+                  </v-col><v-col cols="4">
+                  <v-card>
+                    <v-img
+                        src="https://picsum.photos/350/165?random"
+                        max-height="125"
+                        class="grey darken-4"
+                    ></v-img>
+                    <v-card-title class="title">
+                      max-height
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+
+                  <v-col cols="4">
+                    <v-card>
+                      <v-img
+                          src="https://picsum.photos/350/165?random"
+                          max-height="125"
+                          contain
+                          class="grey darken-4"
+                      ></v-img>
+                      <v-card-title class="title">
+                        max-height with contain
+                      </v-card-title>
+                    </v-card>
+                  </v-col><v-col cols="4">
+                  <v-card>
+                    <v-img
+                        src="https://picsum.photos/350/165?random"
+                        max-height="125"
+                        class="grey darken-4"
+                    ></v-img>
+                    <v-card-title class="title">
+                      max-height
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+
+                  <v-col cols="4">
+                    <v-card>
+                      <v-img
+                          src="https://picsum.photos/350/165?random"
+                          max-height="125"
+                          contain
+                          class="grey darken-4"
+                      ></v-img>
+                      <v-card-title class="title">
+                        max-height with contain
+                      </v-card-title>
+                    </v-card>
+                  </v-col><v-col cols="4">
+                  <v-card>
+                    <v-img
+                        src="https://picsum.photos/350/165?random"
+                        max-height="125"
+                        class="grey darken-4"
+                    ></v-img>
+                    <v-card-title class="title">
+                      max-height
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+
+                  <v-col cols="4">
+                    <v-card>
+                      <v-img
+                          src="https://picsum.photos/350/165?random"
+                          max-height="125"
+                          contain
+                          class="grey darken-4"
+                      ></v-img>
+                      <v-card-title class="title">
+                        max-height with contain
+                      </v-card-title>
+                    </v-card>
+                  </v-col><v-col cols="4">
+                  <v-card>
+                    <v-img
+                        src="https://picsum.photos/350/165?random"
+                        max-height="125"
+                        class="grey darken-4"
+                    ></v-img>
+                    <v-card-title class="title">
+                      max-height
+                    </v-card-title>
+                  </v-card>
+                </v-col>
+
+                  <v-col cols="4">
+                    <v-card>
+                      <v-img
+                          src="https://picsum.photos/350/165?random"
+                          max-height="125"
+                          contain
+                          class="grey darken-4"
+                      ></v-img>
+                      <v-card-title class="title">
+                        max-height with contain
+                      </v-card-title>
+                    </v-card>
+                  </v-col>
+                </v-row>
+              </v-fade-transition>
+            </v-container>
+
 
         </v-sheet>
       </v-col>
@@ -70,5 +279,22 @@ export default {
 </script>
 
 <style scoped>
+.bigbox {
+  padding-top: 4px !important;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
 
 </style>
