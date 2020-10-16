@@ -36,6 +36,7 @@
 </template>
 
 <script>
+
 export default {
   data: () => ({
     links: [
@@ -77,6 +78,7 @@ export default {
       },
     ],
   }),
+
 }
 </script>
 <style>

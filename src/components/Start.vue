@@ -36,7 +36,8 @@
                   <v-icon small>mdi-copyright</v-icon>
                   Hanna Edlund<br>
                   <v-icon small>mdi-github</v-icon>
-                  Min GitHub
+                  Min GitHub<br>
+                  2020
                 </v-list-item-subtitle>
               </v-list-item>
             </v-list>
@@ -66,19 +67,6 @@
 export default {
   name: "Start",
 
-  data: () => ({
-    links: [
-      'Start',
-      'News',
-      'Sveduddens Kennel',
-      'Hundarna',
-      'Valpar',
-      'Champions',
-      'Galleri',
-      'Kontakt',
-      'Länkar',
-    ],
-  }),
 }
 </script>
 
