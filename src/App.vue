@@ -61,21 +61,11 @@
 
                 <v-divider class="my-2"></v-divider>
 
-                <v-list-item
-                    link
-                    color="grey lighten-4"
-                >
-                  <v-list-item-content>
-                    <v-list-item-title>
-                      Refresh
-                    </v-list-item-title>
-                  </v-list-item-content>
                   <v-list-item link href="https://github.com/Meriono" target="_blank">
                     <v-list-item-subtitle align="center"><v-icon small>mdi-copyright</v-icon> Hanna Edlund<br>
                       <v-icon small>mdi-github</v-icon> Min GitHub
                     </v-list-item-subtitle>
                   </v-list-item>
-                </v-list-item>
               </v-list>
             </v-sheet>
           </v-col>
