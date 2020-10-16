@@ -32,8 +32,14 @@
       <v-container>
         <v-row>
           <v-col cols="2">
+            <v-list-item>
+              <v-list-item-subtitle align="center">Annika Norrthon<br>
+                <v-icon x-small>mdi-phone</v-icon> +46 730 650921
+              </v-list-item-subtitle>
+            </v-list-item>
             <v-sheet rounded="lg">
               <v-list color="transparent">
+
                 <v-list-item
                     v-for="n in 5"
                     :key="n"
@@ -64,6 +70,11 @@
                       Refresh
                     </v-list-item-title>
                   </v-list-item-content>
+                  <v-list-item link href="https://github.com/Meriono" target="_blank">
+                    <v-list-item-subtitle align="center"><v-icon small>mdi-copyright</v-icon> Hanna Edlund<br>
+                      <v-icon small>mdi-github</v-icon> Min GitHub
+                    </v-list-item-subtitle>
+                  </v-list-item>
                 </v-list-item>
               </v-list>
             </v-sheet>
