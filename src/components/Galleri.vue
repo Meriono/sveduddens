@@ -48,222 +48,41 @@
         <v-sheet
             max-height="70vh"
             rounded="lg"
-            class="overflow-y-auto"
         >
-            <v-container
-                class="bigbox"
-                fluid
-                style="min-height: 434px"
+          <v-container>
+            <v-card
+                max-height="65vh"
+                class="overflow-y-auto"
+                flat
             >
-              <v-fade-transition mode="out-in">
-                <v-row>
-                  <v-col cols="4">
-                    <v-card>
-                      <v-img
-                          src="https://picsum.photos/350/165?random"
-                          height="125"
-                          class="grey darken-4"
-                      ></v-img>
-                      <v-card-title class="title">
-                        height
-                      </v-card-title>
-                    </v-card>
-                  </v-col>
+              <v-container
+                  class="bigbox"
+              >
+                <v-fade-transition mode="out-in">
+                  <v-row>
+                    <v-col
+                        v-for="n in 24"
+                        :key="n"
+                        cols="4">
+                      <v-card>
+                        <v-img
+                            src="https://picsum.photos/350/165?random"
+                            max-height="165"
+                            contain
+                            class="transparent"
+                        ></v-img>
+                        <v-card-title class="title">
+                          TITLE
+                        </v-card-title>
+                      </v-card>
+                    </v-col>
+                  </v-row>
+                </v-fade-transition>
+              </v-container>
 
-                  <v-col cols="4">
-                    <v-card>
-                      <v-img
-                          src="https://picsum.photos/350/165?random"
-                          height="125"
-                          contain
-                          class="grey darken-4"
-                      ></v-img>
-                      <v-card-title class="title">
-                        height with contain
-                      </v-card-title>
-                    </v-card>
-                  </v-col>
+            </v-card>
 
-                  <v-col cols="4">
-                    <v-card>
-                      <v-img
-                          src="https://picsum.photos/350/165?random"
-                          max-height="125"
-                          class="grey darken-4"
-                      ></v-img>
-                      <v-card-title class="title">
-                        max-height
-                      </v-card-title>
-                    </v-card>
-                  </v-col>
-
-                  <v-col cols="4">
-                    <v-card>
-                      <v-img
-                          src="https://picsum.photos/350/165?random"
-                          max-height="125"
-                          contain
-                          class="grey darken-4"
-                      ></v-img>
-                      <v-card-title class="title">
-                        max-height with contain
-                      </v-card-title>
-                    </v-card>
-                  </v-col>
-                  <v-col cols="4">
-                    <v-card>
-                      <v-img
-                          src="https://picsum.photos/350/165?random"
-                          max-height="125"
-                          class="grey darken-4"
-                      ></v-img>
-                      <v-card-title class="title">
-                        max-height
-                      </v-card-title>
-                    </v-card>
-                  </v-col>
-
-                  <v-col cols="4">
-                    <v-card>
-                      <v-img
-                          src="https://picsum.photos/350/165?random"
-                          max-height="125"
-                          contain
-                          class="grey darken-4"
-                      ></v-img>
-                      <v-card-title class="title">
-                        max-height with contain
-                      </v-card-title>
-                    </v-card>
-                  </v-col><v-col cols="4">
-                  <v-card>
-                    <v-img
-                        src="https://picsum.photos/350/165?random"
-                        max-height="125"
-                        class="grey darken-4"
-                    ></v-img>
-                    <v-card-title class="title">
-                      max-height
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-
-                  <v-col cols="4">
-                    <v-card>
-                      <v-img
-                          src="https://picsum.photos/350/165?random"
-                          max-height="125"
-                          contain
-                          class="grey darken-4"
-                      ></v-img>
-                      <v-card-title class="title">
-                        max-height with contain
-                      </v-card-title>
-                    </v-card>
-                  </v-col><v-col cols="4">
-                  <v-card>
-                    <v-img
-                        src="https://picsum.photos/350/165?random"
-                        max-height="125"
-                        class="grey darken-4"
-                    ></v-img>
-                    <v-card-title class="title">
-                      max-height
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-
-                  <v-col cols="4">
-                    <v-card>
-                      <v-img
-                          src="https://picsum.photos/350/165?random"
-                          max-height="125"
-                          contain
-                          class="grey darken-4"
-                      ></v-img>
-                      <v-card-title class="title">
-                        max-height with contain
-                      </v-card-title>
-                    </v-card>
-                  </v-col><v-col cols="4">
-                  <v-card>
-                    <v-img
-                        src="https://picsum.photos/350/165?random"
-                        max-height="125"
-                        class="grey darken-4"
-                    ></v-img>
-                    <v-card-title class="title">
-                      max-height
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-
-                  <v-col cols="4">
-                    <v-card>
-                      <v-img
-                          src="https://picsum.photos/350/165?random"
-                          max-height="125"
-                          contain
-                          class="grey darken-4"
-                      ></v-img>
-                      <v-card-title class="title">
-                        max-height with contain
-                      </v-card-title>
-                    </v-card>
-                  </v-col><v-col cols="4">
-                  <v-card>
-                    <v-img
-                        src="https://picsum.photos/350/165?random"
-                        max-height="125"
-                        class="grey darken-4"
-                    ></v-img>
-                    <v-card-title class="title">
-                      max-height
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-
-                  <v-col cols="4">
-                    <v-card>
-                      <v-img
-                          src="https://picsum.photos/350/165?random"
-                          max-height="125"
-                          contain
-                          class="grey darken-4"
-                      ></v-img>
-                      <v-card-title class="title">
-                        max-height with contain
-                      </v-card-title>
-                    </v-card>
-                  </v-col><v-col cols="4">
-                  <v-card>
-                    <v-img
-                        src="https://picsum.photos/350/165?random"
-                        max-height="125"
-                        class="grey darken-4"
-                    ></v-img>
-                    <v-card-title class="title">
-                      max-height
-                    </v-card-title>
-                  </v-card>
-                </v-col>
-
-                  <v-col cols="4">
-                    <v-card>
-                      <v-img
-                          src="https://picsum.photos/350/165?random"
-                          max-height="125"
-                          contain
-                          class="grey darken-4"
-                      ></v-img>
-                      <v-card-title class="title">
-                        max-height with contain
-                      </v-card-title>
-                    </v-card>
-                  </v-col>
-                </v-row>
-              </v-fade-transition>
-            </v-container>
+          </v-container>
 
 
         </v-sheet>
@@ -280,7 +99,7 @@ export default {
 
 <style scoped>
 .bigbox {
-  padding-top: 4px !important;
+  padding-top: 0px !important;
 }
 
 ::-webkit-scrollbar {
