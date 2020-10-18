@@ -61,7 +61,7 @@
                 <v-fade-transition mode="out-in">
                   <v-row>
                     <v-col
-                        v-for="n in 24"
+                        v-for="n in 6"
                         :key="n"
                         cols="4">
                       <v-card>
@@ -78,10 +78,32 @@
                     </v-col>
                   </v-row>
                 </v-fade-transition>
+
+                <div id="divider" style="background-color: dimgrey; height: 3px; width:100%;"></div>
+
+                <v-fade-transition mode="out-in">
+                  <v-row>
+                    <v-col
+                        v-for="n in 6"
+                        :key="n"
+                        cols="4">
+                      <v-card>
+                        <v-img
+                            src="https://picsum.photos/350/165?random"
+                            max-height="165"
+                            contain
+                            class="transparent"
+                        ></v-img>
+                        <v-card-title class="title">
+                          TITLE 2
+                        </v-card-title>
+                      </v-card>
+                    </v-col>
+                  </v-row>
+                </v-fade-transition>
+
               </v-container>
-
             </v-card>
-
           </v-container>
 
 
