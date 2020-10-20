@@ -54,54 +54,108 @@
               <v-col cols="4" align="center">
                 <v-card flat>
                   <h1 class="my-2">Tikar</h1>
-                  <p>
-                    <v-icon large>mdi-home</v-icon>
-                    <br>
-                    Sveduddens Kennel<br>
-                    Annika Norrthon<br>
-                    Sveden, Havsjövägen 31<br>
-                    761 12 BERGSHAMRA<br>
-                  </p>
+                  <v-row>
+                    <v-col cols="6">
+                      <p>
+                        <v-img max-height="127px"
+                               max-width="102px"
+                               src="http://www.sveduddens.se/Hundarna/Gretaknapp.png"
+                        >
+                        </v-img>
+                        Sveduddens Greta <br><br>
+                        <v-img max-height="127px"
+                               max-width="102px"
+                               src="http://www.sveduddens.se/Hundarna/Kanelknapp.jpg"
+                        >
+                        </v-img>
+                        Sveduddens Kanel<br><br>
+                        <v-img max-height="127px"
+                               max-width="102px"
+                               src="http://www.sveduddens.se/Hundarna/Irmaknapp.png"
+                        >
+                        </v-img>
+                        Sveduddens Irma
+                      </p>
+                    </v-col>
+                    <v-col cols="6">
+                      <p>
+                        <v-img max-height="127px"
+                               max-width="102px"
+                               src="http://www.sveduddens.se/Hundarna/Tracyknapp.jpg"
+                        >
+                        </v-img>
+                        Bonsai Tracy Chapman "Tracy"<br><br>
+                        <v-img max-height="127px"
+                               max-width="102px"
+                               src="http://www.sveduddens.se/Hundarna/Qleoknapp.jpg"
+                        >
+                        </v-img>
+                        Sveduddens Qleo
+                      </p>
+                    </v-col>
+                  </v-row>
                 </v-card>
               </v-col>
               <v-col cols="4" align="center">
                 <v-card flat>
                   <h1 class="my-2">Hanar</h1>
                   <p>
-                    <v-icon large>mdi-phone</v-icon>
-                    <br>
-                    0730-650921<br>
-                    +46 730-650921<br>
+                    <v-img max-height="127px"
+                           max-width="102px"
+                           src="http://www.sveduddens.se/Hundarna/Dackeknapp.png"
+                    >
+                    </v-img>
+                    Sveduddens Dacke<br><br>
+                    <v-img max-height="127px"
+                           max-width="102px"
+                           src="http://www.sveduddens.se/Hundarna/Kungenknapp.jpg"
+                    >
+                    </v-img>
+                    Ell-Ell´s Kingdom Come "Kungen"<br><br>
+                    <v-img max-height="127px"
+                           max-width="102px"
+                           src="http://www.sveduddens.se/Hundarna/Uniq.png"
+                    >
+                    </v-img>
+                    Sveduddens Uniq
                   </p>
                 </v-card>
               </v-col>
               <v-col cols="4" align="center">
                 <v-card flat color="#dcc7ac" class="py-2">
                   <h1 class="my-2">Pensionerade avelshundar</h1>
-                  <p>
-                    Bellagryn <br>
-                    Hagnes <br>
-                    "Tora"<br>
-                    "Vilja"<br>
-                    Jo-Jo<br>
-                    Roxie<br>
-                    Rutan<br>
-                    Zafir<br>
-                    Jason Norton<br>
-                    Mozart<br>
-                    "Jacke"<br>
-                    Yrsa<br>
-                    Mynta<br>
-                    Ester<br>
-                    "Otto"<br>
-                    Demsey Thunder Truck<br>
-                    Grymlinggryn<br>
-                    "Presley"<br>
-                    Harriet<br>
-                    Zoe<br>
-                    Tiger<br>
-                    Åska<br>
-                  </p>
+                  <v-row>
+                    <v-col cols="6">
+                      <p>
+                      Bellagryn <br>
+                      Hagnes <br>
+                      "Tora"<br>
+                      "Vilja"<br>
+                      Jo-Jo<br>
+                      Roxie<br>
+                      Rutan<br>
+                      Zafir<br>
+                      Jason Norton<br>
+                      Mozart<br>
+                      "Jacke"<br>
+                        Yrsa<br>
+                      </p>
+                    </v-col>
+                    <v-col cols="6">
+                      <p>
+                        Mynta<br>
+                        Ester<br>
+                        "Otto"<br>
+                        Demsey Thunder Truck<br>
+                        Grymlinggryn<br>
+                        "Presley"<br>
+                        Harriet<br>
+                        Zoe<br>
+                        Tiger<br>
+                        Åska
+                      </p>
+                    </v-col>
+                  </v-row>
                 </v-card>
               </v-col>
             </v-row>
