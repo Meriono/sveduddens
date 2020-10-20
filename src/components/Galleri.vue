@@ -58,6 +58,8 @@
               <v-container
                   class="bigbox"
               >
+                <v-card-title>En liten beskrivande text om bilderna som kommer här nedan</v-card-title>
+                <v-card-subtitle>Här kommer senare ett årtal när bilderna kommer ifrån</v-card-subtitle>
                 <v-fade-transition mode="out-in">
                   <v-row>
                     <v-col
@@ -65,6 +67,7 @@
                         :key="n"
                         cols="4">
                       <v-card>
+
                         <v-img
                             src="https://picsum.photos/350/165?random"
                             max-height="165"
@@ -79,8 +82,10 @@
                   </v-row>
                 </v-fade-transition>
 
-                <div id="divider" style="background-color: dimgrey; height: 3px; width:100%;"></div>
+                <div id="divider" style="background-color: dimgrey; height: 3px; width:100%; margin-top: 20px"></div>
 
+                <v-card-title>En liten beskrivande text om bilderna som kommer här nedan</v-card-title>
+                <v-card-subtitle>Här kommer senare ett årtal när bilderna kommer ifrån</v-card-subtitle>
                 <v-fade-transition mode="out-in">
                   <v-row>
                     <v-col

@@ -50,11 +50,61 @@
             rounded="lg"
         >
           <v-card-text>
-            <h1 class="my-2">Välkommen!</h1>
-            <p>FCI och SKK-registrerad uppfödare av Jack Russell Terrier sen 2001. Sveduddens Kennel finns 6 mil
-              nordost om Stockholm.<br><br>
-
-              Över 50 HP belönade uppfödargrupper!</p>
+            <v-row>
+              <v-col cols="4" align="center">
+                <v-card flat>
+                  <h1 class="my-2">Tikar</h1>
+                  <p>
+                    <v-icon large>mdi-home</v-icon>
+                    <br>
+                    Sveduddens Kennel<br>
+                    Annika Norrthon<br>
+                    Sveden, Havsjövägen 31<br>
+                    761 12 BERGSHAMRA<br>
+                  </p>
+                </v-card>
+              </v-col>
+              <v-col cols="4" align="center">
+                <v-card flat>
+                  <h1 class="my-2">Hanar</h1>
+                  <p>
+                    <v-icon large>mdi-phone</v-icon>
+                    <br>
+                    0730-650921<br>
+                    +46 730-650921<br>
+                  </p>
+                </v-card>
+              </v-col>
+              <v-col cols="4" align="center">
+                <v-card flat color="#dcc7ac" class="py-2">
+                  <h1 class="my-2">Pensionerade avelshundar</h1>
+                  <p>
+                    Bellagryn <br>
+                    Hagnes <br>
+                    "Tora"<br>
+                    "Vilja"<br>
+                    Jo-Jo<br>
+                    Roxie<br>
+                    Rutan<br>
+                    Zafir<br>
+                    Jason Norton<br>
+                    Mozart<br>
+                    "Jacke"<br>
+                    Yrsa<br>
+                    Mynta<br>
+                    Ester<br>
+                    "Otto"<br>
+                    Demsey Thunder Truck<br>
+                    Grymlinggryn<br>
+                    "Presley"<br>
+                    Harriet<br>
+                    Zoe<br>
+                    Tiger<br>
+                    Åska<br>
+                  </p>
+                </v-card>
+              </v-col>
+            </v-row>
           </v-card-text>
 
         </v-sheet>
